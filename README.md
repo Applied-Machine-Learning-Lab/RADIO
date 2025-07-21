@@ -77,7 +77,7 @@ CUDA_VISIBLE_DEVICES=2 python -m flashrag.retriever.index_builder \
 
 Our curated reasoning datasets can be downloaded from [HuggingFace](https://huggingface.co/datasets/Jia-py/RADIO).
 
-3. Integrate rationale-based and retrieval scores and generate dataset
+2. Integrate rationale-based and retrieval scores and generate dataset
 
     `python score_cache_to_dataset.py`
 
