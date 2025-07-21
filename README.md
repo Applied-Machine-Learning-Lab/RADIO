@@ -1,5 +1,7 @@
 # RADIO
 
+This is the repository for the ACL Findings Paper "Bridging relevance and reasoning: Rationale distillation in retrieval-augmented generation".
+
 ## Environment
 
 ```bash
@@ -73,7 +75,9 @@ CUDA_VISIBLE_DEVICES=2 python -m flashrag.retriever.index_builder \
 
     `python dataset_generation.py --dataset=xxx --phase=generate_dataset --method=retrieval`
 
-2. Integrate rationale-based and retrieval scores and generate dataset
+Our curated reasoning datasets can be downloaded from [HuggingFace](https://huggingface.co/datasets/Jia-py/RADIO).
+
+3. Integrate rationale-based and retrieval scores and generate dataset
 
     `python score_cache_to_dataset.py`
 
@@ -88,3 +92,11 @@ CUDA_VISIBLE_DEVICES=2 python -m flashrag.retriever.index_builder \
 If you want to use generators with openai api, you can try 
 
 `python run_rag.py --rerank_model_path=xxx --framework=openai --openai_model=gpt-4o-mini`
+
+## Citation
+
+If you find our resources useful, we really appreciate your citation!
+
+```
+Jia, Pengyue, Derong Xu, Xiaopeng Li, Zhaocheng Du, Xiangyang Li, Xiangyu Zhao, Yichao Wang, Yuhao Wang, Huifeng Guo, and Ruiming Tang. "Bridging relevance and reasoning: Rationale distillation in retrieval-augmented generation." arXiv preprint arXiv:2412.08519 (2024)
+```
