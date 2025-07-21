@@ -98,5 +98,10 @@ If you want to use generators with openai api, you can try
 If you find our resources useful, we really appreciate your citation!
 
 ```
-Jia, Pengyue, Derong Xu, Xiaopeng Li, Zhaocheng Du, Xiangyang Li, Xiangyu Zhao, Yichao Wang, Yuhao Wang, Huifeng Guo, and Ruiming Tang. "Bridging relevance and reasoning: Rationale distillation in retrieval-augmented generation." arXiv preprint arXiv:2412.08519 (2024)
+@article{jia2024bridging,
+  title={Bridging relevance and reasoning: Rationale distillation in retrieval-augmented generation},
+  author={Jia, Pengyue and Xu, Derong and Li, Xiaopeng and Du, Zhaocheng and Li, Xiangyang and Zhao, Xiangyu and Wang, Yichao and Wang, Yuhao and Guo, Huifeng and Tang, Ruiming},
+  journal={arXiv preprint arXiv:2412.08519},
+  year={2024}
+}
 ```
